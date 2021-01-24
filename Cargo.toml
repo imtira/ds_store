@@ -1,0 +1,14 @@
+[package]
+name = "ds_store"
+description = "A ds_store parser"
+version = "0.1.0"
+authors = ["t1ra <t1ra@protonmail.com>"]
+edition = "2018"
+
+[lib]
+name = "ds_store"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dsdump"
+path = "src/bin/main.rs"
